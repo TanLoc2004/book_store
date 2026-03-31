@@ -1,0 +1,133 @@
+/* ===== GLOBAL ===== */
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+
+nav {
+    text-align: center;
+}
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* ===== HERO BANNER ===== */
+
+.hero {
+    background: url('/images/hero-books.jpg') center/cover no-repeat;
+    color: white;
+    padding: 120px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hero h1,
+.hero p {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+/* ===== BUTTON ===== */
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    padding: 8px 20px;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* ===== CARD (BOOK ITEM) ===== */
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* ===== PAGINATION ===== */
+
+.pagination {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    border-radius: 5px;
+    margin: 0 3px;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* ===== CART BADGE ===== */
+
+.badge {
+    font-size: 12px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+.hero{
+    padding: 80px 0;
+}
+
+}
+
+/* ===== DROPDOWN STYLING ===== */
+.navbar .dropdown-menu {
+    border-radius: .5rem;
+    min-width: 200px;
+}
+.navbar .dropdown-menu li {
+    margin: 0.2rem 0;
+}
+.navbar .dropdown-item {
+    padding: 0.6rem 1rem;
+    border-radius: .375rem;
+    transition: background-color .15s;
+}
+.navbar .dropdown-item i {
+    color: #495057;
+}
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    background-color: #e9ecef;
+}
+.navbar .dropdown-divider {
+    margin: .5rem 0;
+}
